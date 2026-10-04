@@ -1,3 +1,3 @@
-This page will chronicle the edits made by me, Jack Eisenbraun throughout the project. 
+Created by Jack Eisenbraun, Ben Miller, and Paul Cisko
 
-Each of us are focused on a couple pages at the start and then we will be dialing in on all of them after we are at a good spot.
+Main branch of our project
