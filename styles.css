@@ -1,0 +1,192 @@
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: white;
+    color: black;
+}
+
+header {
+    background-color: black;
+    padding: 15px 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header img {
+    width: 200px;
+}
+
+nav {
+    margin-top: 0;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 25px;
+    margin-right: 0;
+    font-size: 14px;
+}
+
+nav a:hover {
+    color: #800020;
+}
+
+main {
+    width: 80%;
+    max-width: 1000px;
+    margin: 40px auto;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 36px;
+    font-style: italic;
+    text-transform: uppercase;
+    border-left: 4px solid #800020;
+    padding-left: 15px;
+}
+
+h2 {
+    font-size: 26px;
+    border-bottom: 2px solid #800020;
+    padding-bottom: 10px;
+}
+
+h3 {
+    font-size: 20px;
+    margin-top: 35px;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #555;
+}
+
+button {
+    background-color: #800020;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: black;
+}
+
+main a {
+    color: #800020;
+}
+
+main img {
+    max-width: 100%;
+    height: auto;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 50px;
+}
+
+footer p {
+    color: white;
+}
+
+form {
+    width: 500px;
+    max-width: 100%;
+    margin-bottom: 40px;
+}
+
+label {
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    font-size: 16px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+    box-sizing: border-box;
+}
+
+form button {
+    background-color: #800020;
+    color: white;
+    padding: 12px 30px;
+    border: none;
+    margin-top: 20px;
+    font-size: 16px;
+}
+
+form button:hover {
+    background-color: black;
+}
+
+.recovery-image {
+    display: block;
+    width: 600px;
+    max-width: 100%;
+    height: 350px;
+    object-fit: cover;
+    margin: 20px auto;
+    border-radius: 5px;
+}
+
+.hero {
+    height: 350px;
+    background-image: url("PageHeader.png");
+    background-size: cover;
+    background-position: center;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero h1 {
+    background-color: black;
+    color: white;
+    font-size: 40px;
+    font-style: italic;
+    padding: 10px 20px;
+    border: none;
+}
+
+.top-bar {
+    background-color: #800020;
+    text-align: right;
+    padding: 10px 10%;
+}
+
+.top-bar a {
+    color: white;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: bold;
+    margin-left: 25px;
+}
+
+.top-bar a:hover {
+    text-decoration: underline;
+}
