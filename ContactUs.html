@@ -1,51 +1,89 @@
+
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Contact Page - Winks Towing Services</title>
 
-    </head>
-    <body>
-        <header>
-            <a href="index.html">
-                <button style="border-color: transparent; background-color: transparent;">
-                    <img src="/images/WinksTowingLogo.png"
-                        alt="Winks Towing Service Logo"
-                        width="200px">
-                </button>
-            </a>
-            <nav>
-                <a href="index.html">Main Page | </a>
-                <a href="FAQ.html">FAQ's | </a>
-                <a href="About_Us.html">About Us</a>
-            </nav>
-        </header>
+<head>
+    <title>Contact Page - Winks Towing Services</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
 
-        <main>
-            <h1>Contact Page</h1>
-            <div>
-                <a href="FAQ.html">
-                    <button style="font-size: 18px; background-color:tomato; border-radius: 5px;">
-                        FAQ Page
-                    </button>
-                </a>
-             </div>
-            <hr>
-            <h2>Contact Us!</h2>
-            <p>Come see us at 1902 W Market Street Bloomington, IL 61701</p>
-            <p> Office Hours: <br> <b>Mon-Fri: 8am - 5pm<br>Sat-Sun: Closed</b></p>
-            <p>Phone Number: <b>309.828.7812</b></p>
-            <p>Email us!<br> winkstowing@gmail.com</p>
-        </main>
+<body>
 
-        <footer>
+    <div class="top-bar">
+        <a href="About_Us.html">ABOUT</a>
+        <a href="https://www.google.com/search?q=Winks+Towing+Service+reviews">LEAVE A REVIEW</a>
+        <a href="tel:3098287812">(309)-828-7812</a>
+    </div>
 
+    <header>
+        <a href="index.html">
+            <img src="WinksTowingLogo.png" alt="Winks Towing Service Logo">
+        </a>
 
-        </footer>
+        <nav>
+            <a href="index.html">Main Page</a>
+            <a href="FAQ.html">FAQ's</a>
+            <a href="About_Us.html">About Us</a>
+            <a href="contact.html">Contact Us</a>
+        </nav>
+    </header>
 
+    <div class="hero">
+        <h1>CONTACT US</h1>
+    </div>
 
-    </body>
+    <main>
 
+        <h2>Contact Us!</h2>
 
+        <form>
 
+            <label for="firstName">First Name:</label>
+            <input type="text" id="firstName" name="firstName" required>
+
+            <label for="lastName">Last Name:</label>
+            <input type="text" id="lastName" name="lastName" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="phone">Phone Number:</label>
+            <input type="tel" id="phone" name="phone">
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+
+            <button type="submit">Submit</button>
+
+        </form>
+
+        <h2>Contact Information</h2>
+
+        <p>
+            Come see us at 1902 W Market Street
+            Bloomington, IL 61701
+        </p>
+
+        <p>
+            Office Hours:<br>
+            <b>Mon-Fri: 8am - 5pm<br>
+            Sat-Sun: Closed</b>
+        </p>
+
+        <p>Phone Number: <b>(309)-828-7812</b></p>
+
+        <p>
+            Email Us!<br>
+            winkstowing@gmail.com
+        </p>
+
+    </main>
+
+    <footer>
+        <p>Winks Towing Service</p>
+        <p>(309) 828-7812</p>
+    </footer>
+
+</body>
 
 </html>
